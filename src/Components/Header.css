@@ -40,3 +40,16 @@
     width: 15vw;
     margin-right: 80px;
 }
+
+/* mobile screen */
+@media screen and (max-width: 600px) {
+    .header__icon {
+        width: 100px;
+    }
+    .headerInput{
+        width: 100%;
+    }
+    .header__right{
+        display: none;
+    }
+}
